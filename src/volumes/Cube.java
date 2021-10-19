@@ -2,9 +2,8 @@ package volumes;
 
 /**@author steph*/
 
-public class Cube {
+public class Cube extends Shape{
     private double side;
-    private double volume;
 
     public void setSide(double newSide) {
         side = newSide;
